@@ -1,0 +1,84 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IRSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import CoreData
+import Foundation
+@_exported import IRSDK
+import ImageIO
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum InitializeError : Swift.Error {
+  case storageNotInitialized
+  case unknown
+  public static func == (a: IRSDK.InitializeError, b: IRSDK.InitializeError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AuthError : Swift.Error {
+  case cannotAuthenticate
+  case unknown
+  public static func == (a: IRSDK.AuthError, b: IRSDK.AuthError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PhotoGridError : Swift.Error {
+  case photoGridNotFound
+  case sceneTypeNotFound
+  case unknown
+  public static func == (a: IRSDK.PhotoGridError, b: IRSDK.PhotoGridError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public var authDelegate: IRSDK.AuthDelegate? {
+  get
+  set
+}
+#if compiler(>=5.3) && $AsyncAwait
+public func initialize() async throws
+#endif
+public func initialize(completion: ((Swift.Result<Swift.Void, IRSDK.InitializeError>) -> ())?)
+public var isAuthenticated: Swift.Bool {
+  get
+}
+#if compiler(>=5.3) && $AsyncAwait
+public func authenticate(with appToken: Swift.String) async throws
+#endif
+public func authenticate(with appToken: Swift.String, completion: ((Swift.Result<Swift.Void, IRSDK.AuthError>) -> ())?)
+public func deauthenticate()
+public func showPhotoGrid(from viewController: UIKit.UIViewController, sceneType: Swift.String, metadata: [Swift.String : Swift.Codable], delegate: IRSDK.PhotoGridDelegate? = nil) throws
+#if compiler(>=5.3) && $AsyncAwait
+public func submitPhotoGrid(id: Swift.String) async throws
+#endif
+public func submitPhotoGrid(id: Swift.String, completion: ((Swift.Result<Swift.Void, IRSDK.PhotoGridError>) -> ())?)
+#if compiler(>=5.3) && $AsyncAwait
+public func deletePhotoGrid(id: Swift.String) async throws
+#endif
+public func deletePhotoGrid(id: Swift.String, completion: ((Swift.Result<Swift.Void, IRSDK.PhotoGridError>) -> ())?)
+extension Swift.Result where Success == () {
+  public static var success: Swift.Result<(), Failure> {
+    get
+  }
+}
+@_Concurrency.MainActor public protocol AuthDelegate : AnyObject {
+  func didRequestNewAppToken()
+}
+@_Concurrency.MainActor public protocol PhotoGridDelegate : AnyObject {
+  func photoGridDidCreate(photoGridID: Swift.String)
+  func photoGridDidFinish()
+}
+extension IRSDK.InitializeError : Swift.Equatable {}
+extension IRSDK.InitializeError : Swift.Hashable {}
+extension IRSDK.AuthError : Swift.Equatable {}
+extension IRSDK.AuthError : Swift.Hashable {}
+extension IRSDK.PhotoGridError : Swift.Equatable {}
+extension IRSDK.PhotoGridError : Swift.Hashable {}

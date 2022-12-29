@@ -1,0 +1,2373 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "InitializeError",
+        "printedName": "InitializeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "storageNotInitialized",
+            "printedName": "storageNotInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IRSDK.InitializeError.Type) -> IRSDK.InitializeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeError",
+                    "printedName": "IRSDK.InitializeError",
+                    "usr": "s:5IRSDK15InitializeErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IRSDK.InitializeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeError",
+                        "printedName": "IRSDK.InitializeError",
+                        "usr": "s:5IRSDK15InitializeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IRSDK15InitializeErrorO21storageNotInitializedyA2CmF",
+            "mangledName": "$s5IRSDK15InitializeErrorO21storageNotInitializedyA2CmF",
+            "moduleName": "IRSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IRSDK.InitializeError.Type) -> IRSDK.InitializeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeError",
+                    "printedName": "IRSDK.InitializeError",
+                    "usr": "s:5IRSDK15InitializeErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IRSDK.InitializeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeError",
+                        "printedName": "IRSDK.InitializeError",
+                        "usr": "s:5IRSDK15InitializeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IRSDK15InitializeErrorO7unknownyA2CmF",
+            "mangledName": "$s5IRSDK15InitializeErrorO7unknownyA2CmF",
+            "moduleName": "IRSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InitializeError",
+                "printedName": "IRSDK.InitializeError",
+                "usr": "s:5IRSDK15InitializeErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InitializeError",
+                "printedName": "IRSDK.InitializeError",
+                "usr": "s:5IRSDK15InitializeErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK15InitializeErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5IRSDK15InitializeErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IRSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IRSDK15InitializeErrorO9hashValueSivp",
+            "mangledName": "$s5IRSDK15InitializeErrorO9hashValueSivp",
+            "moduleName": "IRSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IRSDK15InitializeErrorO9hashValueSivg",
+                "mangledName": "$s5IRSDK15InitializeErrorO9hashValueSivg",
+                "moduleName": "IRSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK15InitializeErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5IRSDK15InitializeErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IRSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5IRSDK15InitializeErrorO",
+        "mangledName": "$s5IRSDK15InitializeErrorO",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthError",
+        "printedName": "AuthError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cannotAuthenticate",
+            "printedName": "cannotAuthenticate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IRSDK.AuthError.Type) -> IRSDK.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthError",
+                    "printedName": "IRSDK.AuthError",
+                    "usr": "s:5IRSDK9AuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IRSDK.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "IRSDK.AuthError",
+                        "usr": "s:5IRSDK9AuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IRSDK9AuthErrorO18cannotAuthenticateyA2CmF",
+            "mangledName": "$s5IRSDK9AuthErrorO18cannotAuthenticateyA2CmF",
+            "moduleName": "IRSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IRSDK.AuthError.Type) -> IRSDK.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthError",
+                    "printedName": "IRSDK.AuthError",
+                    "usr": "s:5IRSDK9AuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IRSDK.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "IRSDK.AuthError",
+                        "usr": "s:5IRSDK9AuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IRSDK9AuthErrorO7unknownyA2CmF",
+            "mangledName": "$s5IRSDK9AuthErrorO7unknownyA2CmF",
+            "moduleName": "IRSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthError",
+                "printedName": "IRSDK.AuthError",
+                "usr": "s:5IRSDK9AuthErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthError",
+                "printedName": "IRSDK.AuthError",
+                "usr": "s:5IRSDK9AuthErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK9AuthErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5IRSDK9AuthErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IRSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IRSDK9AuthErrorO9hashValueSivp",
+            "mangledName": "$s5IRSDK9AuthErrorO9hashValueSivp",
+            "moduleName": "IRSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IRSDK9AuthErrorO9hashValueSivg",
+                "mangledName": "$s5IRSDK9AuthErrorO9hashValueSivg",
+                "moduleName": "IRSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK9AuthErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5IRSDK9AuthErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IRSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5IRSDK9AuthErrorO",
+        "mangledName": "$s5IRSDK9AuthErrorO",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhotoGridError",
+        "printedName": "PhotoGridError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "photoGridNotFound",
+            "printedName": "photoGridNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IRSDK.PhotoGridError.Type) -> IRSDK.PhotoGridError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhotoGridError",
+                    "printedName": "IRSDK.PhotoGridError",
+                    "usr": "s:5IRSDK14PhotoGridErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IRSDK.PhotoGridError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhotoGridError",
+                        "printedName": "IRSDK.PhotoGridError",
+                        "usr": "s:5IRSDK14PhotoGridErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IRSDK14PhotoGridErrorO05photoC8NotFoundyA2CmF",
+            "mangledName": "$s5IRSDK14PhotoGridErrorO05photoC8NotFoundyA2CmF",
+            "moduleName": "IRSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "sceneTypeNotFound",
+            "printedName": "sceneTypeNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IRSDK.PhotoGridError.Type) -> IRSDK.PhotoGridError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhotoGridError",
+                    "printedName": "IRSDK.PhotoGridError",
+                    "usr": "s:5IRSDK14PhotoGridErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IRSDK.PhotoGridError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhotoGridError",
+                        "printedName": "IRSDK.PhotoGridError",
+                        "usr": "s:5IRSDK14PhotoGridErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IRSDK14PhotoGridErrorO17sceneTypeNotFoundyA2CmF",
+            "mangledName": "$s5IRSDK14PhotoGridErrorO17sceneTypeNotFoundyA2CmF",
+            "moduleName": "IRSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IRSDK.PhotoGridError.Type) -> IRSDK.PhotoGridError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhotoGridError",
+                    "printedName": "IRSDK.PhotoGridError",
+                    "usr": "s:5IRSDK14PhotoGridErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IRSDK.PhotoGridError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhotoGridError",
+                        "printedName": "IRSDK.PhotoGridError",
+                        "usr": "s:5IRSDK14PhotoGridErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5IRSDK14PhotoGridErrorO7unknownyA2CmF",
+            "mangledName": "$s5IRSDK14PhotoGridErrorO7unknownyA2CmF",
+            "moduleName": "IRSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhotoGridError",
+                "printedName": "IRSDK.PhotoGridError",
+                "usr": "s:5IRSDK14PhotoGridErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhotoGridError",
+                "printedName": "IRSDK.PhotoGridError",
+                "usr": "s:5IRSDK14PhotoGridErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK14PhotoGridErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5IRSDK14PhotoGridErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IRSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5IRSDK14PhotoGridErrorO9hashValueSivp",
+            "mangledName": "$s5IRSDK14PhotoGridErrorO9hashValueSivp",
+            "moduleName": "IRSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5IRSDK14PhotoGridErrorO9hashValueSivg",
+                "mangledName": "$s5IRSDK14PhotoGridErrorO9hashValueSivg",
+                "moduleName": "IRSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK14PhotoGridErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5IRSDK14PhotoGridErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IRSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5IRSDK14PhotoGridErrorO",
+        "mangledName": "$s5IRSDK14PhotoGridErrorO",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VideoTutorial",
+        "printedName": "VideoTutorial",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Errors",
+        "printedName": "Errors",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ResourcesManagement",
+        "printedName": "ResourcesManagement",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SWLogger",
+        "printedName": "SWLogger",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "authDelegate",
+        "printedName": "authDelegate",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "IRSDK.AuthDelegate?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthDelegate",
+                "printedName": "IRSDK.AuthDelegate",
+                "usr": "s:5IRSDK12AuthDelegateP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:5IRSDK12authDelegateAA04AuthC0_pSgvp",
+        "mangledName": "$s5IRSDK12authDelegateAA04AuthC0_pSgvp",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IRSDK.AuthDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthDelegate",
+                    "printedName": "IRSDK.AuthDelegate",
+                    "usr": "s:5IRSDK12AuthDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:5IRSDK12authDelegateAA04AuthC0_pSgvg",
+            "mangledName": "$s5IRSDK12authDelegateAA04AuthC0_pSgvg",
+            "moduleName": "IRSDK",
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IRSDK.AuthDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthDelegate",
+                    "printedName": "IRSDK.AuthDelegate",
+                    "usr": "s:5IRSDK12AuthDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:5IRSDK12authDelegateAA04AuthC0_pSgvs",
+            "mangledName": "$s5IRSDK12authDelegateAA04AuthC0_pSgvs",
+            "moduleName": "IRSDK",
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:5IRSDK12authDelegateAA04AuthC0_pSgvM",
+            "mangledName": "$s5IRSDK12authDelegateAA04AuthC0_pSgvM",
+            "moduleName": "IRSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "initialize",
+        "printedName": "initialize()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK10initializeyyYaKF",
+        "mangledName": "$s5IRSDK10initializeyyYaKF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "initialize",
+        "printedName": "initialize(completion:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.Result<(), IRSDK.InitializeError>) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), IRSDK.InitializeError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), IRSDK.InitializeError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeError",
+                        "printedName": "IRSDK.InitializeError",
+                        "usr": "s:5IRSDK15InitializeErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK10initialize10completionyys6ResultOyytAA15InitializeErrorOGcSg_tF",
+        "mangledName": "$s5IRSDK10initialize10completionyys6ResultOyytAA15InitializeErrorOGcSg_tF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "isAuthenticated",
+        "printedName": "isAuthenticated",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:5IRSDK15isAuthenticatedSbvp",
+        "mangledName": "$s5IRSDK15isAuthenticatedSbvp",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:5IRSDK15isAuthenticatedSbvg",
+            "mangledName": "$s5IRSDK15isAuthenticatedSbvg",
+            "moduleName": "IRSDK",
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "authenticate",
+        "printedName": "authenticate(with:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK12authenticate4withySS_tYaKF",
+        "mangledName": "$s5IRSDK12authenticate4withySS_tYaKF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "authenticate",
+        "printedName": "authenticate(with:completion:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.Result<(), IRSDK.AuthError>) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), IRSDK.AuthError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), IRSDK.AuthError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "IRSDK.AuthError",
+                        "usr": "s:5IRSDK9AuthErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK12authenticate4with10completionySS_ys6ResultOyytAA9AuthErrorOGcSgtF",
+        "mangledName": "$s5IRSDK12authenticate4with10completionySS_ys6ResultOyytAA9AuthErrorOGcSgtF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "deauthenticate",
+        "printedName": "deauthenticate()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK14deauthenticateyyF",
+        "mangledName": "$s5IRSDK14deauthenticateyyF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "showPhotoGrid",
+        "printedName": "showPhotoGrid(from:sceneType:metadata:delegate:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIViewController",
+            "printedName": "UIKit.UIViewController",
+            "usr": "c:objc(cs)UIViewController"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.Decodable & Swift.Encodable]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Swift.Decodable & Swift.Encodable"
+              }
+            ],
+            "usr": "s:SD"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "IRSDK.PhotoGridDelegate?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhotoGridDelegate",
+                "printedName": "IRSDK.PhotoGridDelegate",
+                "usr": "s:5IRSDK17PhotoGridDelegateP"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK13showPhotoGrid4from9sceneType8metadata8delegateySo16UIViewControllerC_SSSDySSSe_SEpGAA0cD8Delegate_pSgtKF",
+        "mangledName": "$s5IRSDK13showPhotoGrid4from9sceneType8metadata8delegateySo16UIViewControllerC_SSSDySSSe_SEpGAA0cD8Delegate_pSgtKF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "submitPhotoGrid",
+        "printedName": "submitPhotoGrid(id:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK15submitPhotoGrid2idySS_tYaKF",
+        "mangledName": "$s5IRSDK15submitPhotoGrid2idySS_tYaKF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "submitPhotoGrid",
+        "printedName": "submitPhotoGrid(id:completion:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.Result<(), IRSDK.PhotoGridError>) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), IRSDK.PhotoGridError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), IRSDK.PhotoGridError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhotoGridError",
+                        "printedName": "IRSDK.PhotoGridError",
+                        "usr": "s:5IRSDK14PhotoGridErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK15submitPhotoGrid2id10completionySS_ys6ResultOyytAA0cD5ErrorOGcSgtF",
+        "mangledName": "$s5IRSDK15submitPhotoGrid2id10completionySS_ys6ResultOyytAA0cD5ErrorOGcSgtF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "deletePhotoGrid",
+        "printedName": "deletePhotoGrid(id:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK15deletePhotoGrid2idySS_tYaKF",
+        "mangledName": "$s5IRSDK15deletePhotoGrid2idySS_tYaKF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "deletePhotoGrid",
+        "printedName": "deletePhotoGrid(id:completion:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.Result<(), IRSDK.PhotoGridError>) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), IRSDK.PhotoGridError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), IRSDK.PhotoGridError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhotoGridError",
+                        "printedName": "IRSDK.PhotoGridError",
+                        "usr": "s:5IRSDK14PhotoGridErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5IRSDK15deletePhotoGrid2id10completionySS_ys6ResultOyytAA0cD5ErrorOGcSgtF",
+        "mangledName": "$s5IRSDK15deletePhotoGrid2id10completionySS_ys6ResultOyytAA0cD5ErrorOGcSgtF",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Binding",
+        "printedName": "Binding",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CombineExtensions",
+        "printedName": "CombineExtensions",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthDelegate",
+        "printedName": "AuthDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didRequestNewAppToken",
+            "printedName": "didRequestNewAppToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK12AuthDelegateP21didRequestNewAppTokenyyF",
+            "mangledName": "$s5IRSDK12AuthDelegateP21didRequestNewAppTokenyyF",
+            "moduleName": "IRSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : IRSDK.AuthDelegate>",
+            "sugared_genericSig": "<Self where Self : IRSDK.AuthDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5IRSDK12AuthDelegateP",
+        "mangledName": "$s5IRSDK12AuthDelegateP",
+        "moduleName": "IRSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhotoGridDelegate",
+        "printedName": "PhotoGridDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "photoGridDidCreate",
+            "printedName": "photoGridDidCreate(photoGridID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK17PhotoGridDelegateP05photoC9DidCreate0eC2IDySS_tF",
+            "mangledName": "$s5IRSDK17PhotoGridDelegateP05photoC9DidCreate0eC2IDySS_tF",
+            "moduleName": "IRSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : IRSDK.PhotoGridDelegate>",
+            "sugared_genericSig": "<Self where Self : IRSDK.PhotoGridDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "photoGridDidFinish",
+            "printedName": "photoGridDidFinish()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5IRSDK17PhotoGridDelegateP05photoC9DidFinishyyF",
+            "mangledName": "$s5IRSDK17PhotoGridDelegateP05photoC9DidFinishyyF",
+            "moduleName": "IRSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : IRSDK.PhotoGridDelegate>",
+            "sugared_genericSig": "<Self where Self : IRSDK.PhotoGridDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5IRSDK17PhotoGridDelegateP",
+        "mangledName": "$s5IRSDK17PhotoGridDelegateP",
+        "moduleName": "IRSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher_Shelfwise",
+        "printedName": "Kingfisher_Shelfwise",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Errors",
+        "printedName": "Errors",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher_Shelfwise",
+        "printedName": "Kingfisher_Shelfwise",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VideoTutorial",
+        "printedName": "VideoTutorial",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Binding",
+        "printedName": "Binding",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "EncryptedDefaults",
+        "printedName": "EncryptedDefaults",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Binding",
+        "printedName": "Binding",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CombineExtensions",
+        "printedName": "CombineExtensions",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SWAnalytics",
+        "printedName": "SWAnalytics",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SWLogger",
+        "printedName": "SWLogger",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VideoTutorial",
+        "printedName": "VideoTutorial",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SWLogger",
+        "printedName": "SWLogger",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCapture",
+        "printedName": "WiseCapture",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Errors",
+        "printedName": "Errors",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WiseCaptureModels",
+        "printedName": "WiseCaptureModels",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Errors",
+        "printedName": "Errors",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "IRSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "EncryptedDefaults",
+        "printedName": "EncryptedDefaults",
+        "declKind": "Import",
+        "moduleName": "IRSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Result",
+        "printedName": "Result",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<(), τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s6ResultO5IRSDKytRszrlE7successAByytq_GvpZ",
+            "mangledName": "$ss6ResultO5IRSDKytRszrlE7successAByytq_GvpZ",
+            "moduleName": "IRSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s6ResultO5IRSDKytRszrlE7successAByytq_GvgZ",
+                "mangledName": "$ss6ResultO5IRSDKytRszrlE7successAByytq_GvgZ",
+                "moduleName": "IRSDK",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == (), τ_0_1 : Swift.Error>",
+                "sugared_genericSig": "<Success, Failure where Success == (), Failure : Swift.Error>",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:s6ResultO",
+        "mangledName": "$ss6ResultO",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Error>",
+        "sugared_genericSig": "<Success, Failure where Failure : Swift.Error>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 32,
+      "value": "\"IRSDK_encryptedAnalyticsUserId\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 38,
+      "value": "\"IRSDK_encryptedAnalyticsUserUsername\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 35,
+      "value": "\"IRSDK_encryptedAnalyticsUserEmail\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 23,
+      "value": "\"IRSDK_analyticsUserId\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 29,
+      "value": "\"IRSDK_analyticsUserUsername\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 26,
+      "value": "\"IRSDK_analyticsUserEmail\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 29,
+      "value": "\"IRSDK_encryptedRefreshToken\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 28,
+      "value": "\"IRSDK_encryptedAccessToken\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 20,
+      "value": "\"IRSDK_refreshToken\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 19,
+      "value": "\"IRSDK_accessToken\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 819,
+      "length": 21,
+      "value": "\"IRSDK_tokensRevoked\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 873,
+      "length": 22,
+      "value": "\"IRSDK_messagingToken\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 12,
+      "value": "\"IRSDK_user\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 965,
+      "length": 24,
+      "value": "\"IRSDK_selectedOutletId\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 19,
+      "value": "\"IRSDK_firstLaunch\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1082,
+      "length": 33,
+      "value": "\"IRSDK_photoTutorialVideoWatched\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 24,
+      "value": "\"IRSDK_lastDataSyncDate\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/User Defaults\/Defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 15,
+      "value": "\"WiseSDK_theme\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/IRSDK+Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/IRSDK+Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/IRSDK+Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1987,
+      "length": 13,
+      "value": "\"test-cooler\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/IRSDK+Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 12,
+      "value": "\"test-shelf\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/IRSDK+Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1987,
+      "length": 13,
+      "value": "\"test-cooler\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/IRSDK+Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 12,
+      "value": "\"test-shelf\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/Database\/Utilities\/CoreData+Combine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/Database\/Utilities\/CoreData+Combine.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 11,
+      "value": "\"IRSDK.CDPublisher\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/Database\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 17,
+      "value": "\"IRSDK_StorageDB\""
+    },
+    {
+      "filePath": "\/Users\/marcin\/Repositories\/wise-components-ios\/IRSDK\/IRSDK\/IRSDK\/Storages\/Database\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 12,
+      "value": "\"IRSDKModel\""
+    }
+  ]
+}

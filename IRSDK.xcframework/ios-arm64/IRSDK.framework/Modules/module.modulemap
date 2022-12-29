@@ -1,0 +1,11 @@
+framework module IRSDK {
+  umbrella header "IRSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module IRSDK.Swift {
+  header "IRSDK-Swift.h"
+  requires objc
+}
