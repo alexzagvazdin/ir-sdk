@@ -37,11 +37,15 @@ or
 IRSDK.initialize { result in ... }
 ```
 
+> IMPORTANT: Prior to calling the `initialize` method, implement the Auth Delegate and set the `IRSDK.authDelegate` property as described below. This will allow the SDK to handle expired auth tokens and make sure the users always stay authenticated.
+
 ## Authentication
 
 ### Authenticate
 
-To authenticate and authorize the device for further usage, pass an app token received from IR backend to the SDK:
+Authentication usually requires implementation on the server side in addition to implementation on mobile. In a typical flow, the server code will authenticate with the IR backend and request the app token that should later be used in mobile code. App tokens are unique and new token should be requested for each mobile device that will be connecting to the IR SDK. Token do expire new app tokens need to be requested by the server whenver an old token expires. Please see the Auth Delegate section below for more details. 
+
+Once the app token has been obtained from the server, to authenticate and authorize the device for further usage, pass an app token received from IR backend to the SDK:
 
 ```swift
 try await IRSDK.authenticate(with: appToken)
@@ -50,7 +54,7 @@ or
 ```swift
 IRSDK.authenticate(with: appToken) { result in ... }
 ```
-It is recommended to call this function after successful user login. Functionalities like photo upload does not work without authentication and authorization. 
+It is recommended to call this function after successful user login. Photo upload functionality would not work without authentication and authorization. 
 
 ### Deauthenticate
 
@@ -85,16 +89,18 @@ The IR SDK may throw followinig errors related to authentication and authorizati
 
 ### User Interface
 
-The IR SDK provides photo capture interface called Photo Grid. Photo Grid UI helps users to take photos of store displays, arranges them in a grid structure and handles photo upload. To open photo grid from the IR SDK, call `showPhotoGrid(from:sceneType:metadata:delegate:)` from any `UIViewController`:
+The IR SDK provides photo capture interface called Photo Grid. Photo Grid UI helps users take photos of store displays, arranges them in a grid structure and handles photo upload. To open photo grid from the IR SDK, call `showPhotoGrid(from:sceneType:metadata:delegate:)` from any `UIViewController`:
 
 ```swift
 try IRSDK.showPhotoGrid(from: viewController, sceneType: sceneType, metadata: metadata, delegate: photoGridDelegate)
 ```
 where:
 - `viewController` is any `UIViewController` of your app.
-- `sceneType` is a string that defines what kind of scene user is trying to capture. For testing purposes, use `test-cooler` and `test-shelf` scene types. 
-- `metadata` is a `[String : Codable]` structure that holds all necessary information that should be attached to the photo grid. Those metadata will be returned along with the tagging results by the IR backend.
-- `photoGridDelegate` is a `PhotoGridDelegate` implementation that reacts to photo grid creation events. 
+- `sceneType` is a string that defines what kind of scene user is trying to capture. The following scene types are supported for testing:
+    - `test-cooler` for pictures of coolers (a sequence of pictures captured vertically)
+    - `test-shelf` for pictures of horizontal shelves (a sequence of pictures captured both horizontally and vertically). 
+- `metadata` is a `[String : Codable]` structure that holds all necessary information that should be attached to the photo grid. Those metadata will be returned along with the tagging results by the IR backend. Metadata should be used for any information you would to have associated with the photo grid. Examples may include a visit ID, store ID, name, or location, etc. 
+- `photoGridDelegate` is a `PhotoGridDelegate` implementation that reacts to photo grid creation and finish events. 
 
 ### Photo Grid Delegate
 
@@ -105,7 +111,7 @@ extension MyViewController: PhotoGridDelegate {
   
   func photoGridDidCreate(photoGridID: String) {}
   
-  func photoGridsDidFinish() {}
+  func photoGridDidFinish() {}
 }
 ```
 
